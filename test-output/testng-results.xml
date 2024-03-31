@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-31T14:27:06 IST" name="Suite" finished-at="2024-03-31T14:27:55 IST" duration-ms="48787">
+    <groups>
+    </groups>
+    <test started-at="2024-03-31T14:27:06 IST" name="Test" finished-at="2024-03-31T14:27:55 IST" duration-ms="48787">
+      <class name="testcases.TestCase_TC3_OrderBookTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCase_TC3_OrderBookTest@248e319b]" started-at="2024-03-31T14:27:42 IST" name="setUp" finished-at="2024-03-31T14:27:52 IST" duration-ms="10700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="orderTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCase_TC3_OrderBookTest@248e319b]" started-at="2024-03-31T14:27:52 IST" name="orderTest" data-provider="validcredential" finished-at="2024-03-31T14:27:55 IST" duration-ms="3026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestCase_TC3_OrderBookTest@248e319b]" started-at="2024-03-31T14:27:55 IST" name="tearDown" finished-at="2024-03-31T14:27:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestCase_TC3_OrderBookTest -->
+      <class name="testcases.TestCase_TC14_VerifyTAbout">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCase_TC14_VerifyTAbout@2af004b]" started-at="2024-03-31T14:27:26 IST" name="setUp" finished-at="2024-03-31T14:27:28 IST" duration-ms="1948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAboutNavigation(java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCase_TC14_VerifyTAbout@2af004b]" started-at="2024-03-31T14:27:28 IST" name="verifyAboutNavigation" data-provider="validcredential" finished-at="2024-03-31T14:27:41 IST" duration-ms="13531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAboutNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestCase_TC14_VerifyTAbout@2af004b]" started-at="2024-03-31T14:27:41 IST" name="tearDown" finished-at="2024-03-31T14:27:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestCase_TC14_VerifyTAbout -->
+      <class name="testcases.TestCase_TC10_LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCase_TC10_LogoutTest@76b1e9b8]" started-at="2024-03-31T14:27:18 IST" name="setUp" finished-at="2024-03-31T14:27:20 IST" duration-ms="1807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logout(java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCase_TC10_LogoutTest@76b1e9b8]" started-at="2024-03-31T14:27:20 IST" name="logout" data-provider="validcredential" finished-at="2024-03-31T14:27:22 IST" duration-ms="1729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestCase_TC10_LogoutTest@76b1e9b8]" started-at="2024-03-31T14:27:22 IST" name="tearDown" finished-at="2024-03-31T14:27:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestCase_TC10_LogoutTest -->
+      <class name="testcases.TestCase_TC1_VerifyLogin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCase_TC1_VerifyLogin@27406a17]" started-at="2024-03-31T14:27:22 IST" name="setUp" finished-at="2024-03-31T14:27:23 IST" duration-ms="1451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getTitle(java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCase_TC1_VerifyLogin@27406a17]" started-at="2024-03-31T14:27:23 IST" name="getTitle" data-provider="validcredential" finished-at="2024-03-31T14:27:26 IST" duration-ms="2478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestCase_TC1_VerifyLogin@27406a17]" started-at="2024-03-31T14:27:26 IST" name="tearDown" finished-at="2024-03-31T14:27:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestCase_TC1_VerifyLogin -->
+      <class name="testcases.TestCse_TC2_MultipleLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCse_TC2_MultipleLoginTest@17f62e33]" started-at="2024-03-31T14:27:07 IST" name="setUp" finished-at="2024-03-31T14:27:10 IST" duration-ms="2444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCse_TC2_MultipleLoginTest@17f62e33]" started-at="2024-03-31T14:27:10 IST" name="loginTest" data-provider="multiplelogin" finished-at="2024-03-31T14:27:12 IST" duration-ms="2549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestCse_TC2_MultipleLoginTest@17f62e33]" started-at="2024-03-31T14:27:12 IST" name="tearDown" finished-at="2024-03-31T14:27:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCse_TC2_MultipleLoginTest@17f62e33]" started-at="2024-03-31T14:27:12 IST" name="setUp" finished-at="2024-03-31T14:27:14 IST" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCse_TC2_MultipleLoginTest@17f62e33]" started-at="2024-03-31T14:27:14 IST" name="loginTest" data-provider="multiplelogin" finished-at="2024-03-31T14:27:14 IST" duration-ms="277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestCse_TC2_MultipleLoginTest@17f62e33]" started-at="2024-03-31T14:27:14 IST" name="tearDown" finished-at="2024-03-31T14:27:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCse_TC2_MultipleLoginTest@17f62e33]" started-at="2024-03-31T14:27:14 IST" name="setUp" finished-at="2024-03-31T14:27:15 IST" duration-ms="1399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCse_TC2_MultipleLoginTest@17f62e33]" started-at="2024-03-31T14:27:15 IST" name="loginTest" data-provider="multiplelogin" finished-at="2024-03-31T14:27:16 IST" duration-ms="277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCse_TC2_MultipleLoginTest@17f62e33]" started-at="2024-03-31T14:27:16 IST" name="setUp" finished-at="2024-03-31T14:27:18 IST" duration-ms="2201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestCse_TC2_MultipleLoginTest@17f62e33]" started-at="2024-03-31T14:27:16 IST" name="tearDown" finished-at="2024-03-31T14:27:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCse_TC2_MultipleLoginTest@17f62e33]" started-at="2024-03-31T14:27:18 IST" name="loginTest" data-provider="multiplelogin" finished-at="2024-03-31T14:27:18 IST" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestCse_TC2_MultipleLoginTest@17f62e33]" started-at="2024-03-31T14:27:18 IST" name="tearDown" finished-at="2024-03-31T14:27:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestCse_TC2_MultipleLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
