@@ -7,7 +7,7 @@
       <class name="testcases.TestCse_TC2_MultipleLoginTest"/>
       <class name="testcases.TestCase_TC10_LogoutTest"/>
       <class name="testcases.TestCase_TC1_VerifyLogin"/>
-      <class name="testcases.TestCase_TC14_VerifyTAbout"/>
+      <class name="testcases.TestCase_TC14_VerifyAbout"/>
       <class name="testcases.TestCase_TC3_OrderBookTest"/>
     </classes>
   </test> <!-- Test -->
